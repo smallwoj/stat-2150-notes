@@ -1,0 +1,76 @@
+---
+title: "Unit 1"
+output: html_document
+---
+
+# R Software
+It's a language
+
+```{r}
+print("its r")
+```
+
+we got examples
+
+you can calculate numbers
+
+```{r}
+2+3
+
+5-1
+
+2*3
+
+5^2
+
+5/2
+
+sqrt(10)
+
+log(10)
+
+exp(1)
+
+sin(1)
+
+cos(1)
+
+tan(1)
+```
+
+Yeah okay that's cool but check this out
+
+```{r}
+y = 10
+
+x = 15
+
+x + y
+```
+yeah okay hello world
+
+```{r}
+print("hi")
+```
+vectors exist now
+
+```{r}
+x = c(1,2,3,4,5)
+
+x
+
+mean(x)
+sd(x)
+median(x)
+IQR(x)
+quantile(x, 0.5)
+```
+simulators?? generate that data
+
+```{r}
+x = rnorm(1000, 0, 1)
+hist(x, breaks=50)
+```
+
+note that indexing starts at 1 : (
+
